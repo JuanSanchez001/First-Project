@@ -1,0 +1,77 @@
+h1{
+	color: Cornsilk;
+	width: 1160px;
+    border: 15px outset green;
+    padding: 50px;
+    margin-left: 500px;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2{
+	color: LightSteelBlue;
+	margin-left: 50px;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+body{
+	background-color: SeaGreen;
+}
+
+
+#img1{
+	width:50%;
+	margin-left: 250px;
+
+}
+
+#img2{
+	width: 70%;
+	margin-left: 100px;
+} 
+
+table {
+  background: white;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 1000px;
+  margin-left: 650px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+table:hover {
+  transform: scale(1.1);
+}
+
+td, th {
+  border: 5px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+  
+}
+
+cite{
+	font-size: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.mask1 {
+  -webkit-mask-image: url(soccerball.png);
+  mask-image: url(soccerball.png);
+  mask-repeat: no-repeat;  
+}
